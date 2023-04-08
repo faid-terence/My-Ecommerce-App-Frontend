@@ -703,9 +703,40 @@ footer .copyright span
     z-index: -9;
 
 }
+/* About Page*/
+#page-header.about-header
+{
+    background-image: url('https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/about/banner.png');
 
-
-
+}
+#about-head {
+    display: flex;
+    align-items: center;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head div
+{
+    padding-left: 40px;
+}
+#about-app
+{
+    text-align: center;
+}
+#about-app .video
+{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+#about-app .video video
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
 
 
 
@@ -906,4 +937,21 @@ footer .copyright span
     #blog .blog-details {
         width: 100%;
     }
+    #about-head
+    {
+        flex-direction: column;
+    }
+    #about-head img
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div
+    {
+        padding-left: 0px;
+    }
+    #about-app .video{
+        width: 100%;
+    }
+
 }
